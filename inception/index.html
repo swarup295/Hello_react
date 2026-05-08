@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>jk</header>
+    <div id="root">
+        <!-- <h1>hello world</h1> -->
+    </div>
+    <div id="swa">
+        <!-- <h1>hello world</h1> -->
+    </div>
+    <footer>jkk</footer>
+
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+   
+
+    <!-- <script> const heading = document.createElement("h1")
+        heading.innerHTML = "Hello world"
+        const root = document.getElementById("root")
+        root.appendChild(heading)
+    </script> -->
+    <script>
+        const heading1 = React.createElement("h1", {}, "hello")
+        const heading2 = React.createElement("h2", {}, "bye")
+        const heading3 = React.createElement("h3", {}, "come")
+        const wrapper = React.createElement("div", {}, [heading1, heading2, heading3])
+        // const root = ReactDOM.createRoot(document.getElementById("root"))
+        // root.render(wrapper)
+
+        const test = React.createElement("h2", {
+            id: "test",
+            style: {
+                color: "red", backgroundColor: "#000"
+            }
+        }, "you")
+        const root =ReactDOM.createRoot(document.getElementById("root"))
+        root.render(test)
+        console.log(test);
+
+       
+        
+
+
+
+    </script>
+
+
+</body>
+
+</html>

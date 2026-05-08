@@ -1,0 +1,25 @@
+{
+  "name": "react-programing",
+  "version": "1.0.0",
+  "description": "null",
+  "license": "ISC",
+  "author": "swarup",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ]
+}

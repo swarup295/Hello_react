@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    padding: 0;
+        text-align: center;
+        
+}
+.swa{
+    background-color: rgb(235, 4, 139);
+    justify-items: end;
+} 

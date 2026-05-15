@@ -2,8 +2,7 @@ import { Auth } from "./header";
 const Footer = () => {
   return (
     <>
-      <h1>Footer</h1>
-      <Auth />;
+      <h1></h1>
     </>
   );
 };

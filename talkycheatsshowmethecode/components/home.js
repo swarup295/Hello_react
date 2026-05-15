@@ -1,4 +1,13 @@
+import SearchBar from "./searchBar";
+import RestaurantList from "./restaurantList";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <SearchBar />
+      <RestaurantList />
+    </div>
+  );
 };
+
 export default Home;

@@ -1,13 +1,20 @@
-const Logo = () => {
-  return <h1>WIGGY</h1>;
+import Logo from "url:../assets/logo.png";
+
+const Title = () => {
+  return (
+    <div>
+      <img className="logo" src={Logo} alt="Logo" />
+    </div>
+  );
 };
 
 const Navbar = () => {
   return (
-    <ul className="header">
-      <li>Home</li>
+    <ul className="nav-items">
+      <li href="#">Home</li>
       <li>About</li>
       <li>contact us</li>
+      <li>card</li>
     </ul>
   );
 };
@@ -23,9 +30,9 @@ export const Auth = () => {
 const HeaderComponent = () => {
   return (
     <div className="header">
-      <Logo />
+      <Title />
       <Navbar />
-      <Auth />
+      {/* <Auth /> */}
     </div>
   );
 };

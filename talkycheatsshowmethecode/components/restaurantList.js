@@ -2,7 +2,7 @@ import RestaurantCard from "./restaurantCard";
 const RestaurantList = () => {
   return (
     <div className="restuarant-list">
-      <RestaurantCard />
+      <RestaurantCard data={} />
       <RestaurantCard />
       <RestaurantCard />
       <RestaurantCard />
